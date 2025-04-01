@@ -1,4 +1,4 @@
-# Pairs-Trading-Strategy-for-Indian-Energy-Stocks
+# 📈Pairs-Trading-Strategy-for-Indian-Energy-Stocks
 
 ## Overview
 
