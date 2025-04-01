@@ -80,6 +80,22 @@ Below are sample outputs obtained after running the script:
 - ![download (3)](https://github.com/user-attachments/assets/401a341d-2ae3-4a17-b59e-2855c86a1b6f)
 - ![download (4)](https://github.com/user-attachments/assets/e7388cdd-2a19-41b5-a628-ac182b1951e3)
 
+## Key Performance Metrics and Their Implications
+
+- **Annualized Sharpe Ratio: -0.3163**
+  - A **negative Sharpe Ratio** means that the strategy's average returns are below the risk-free rate (or below zero if using 0% as the risk-free rate).
+  - This indicates that the strategy does not adequately compensate for the risk taken, with volatility outweighing any gains.
+
+- **Maximum Drawdown: -69%**
+  - A **-69% drawdown** signifies a very large loss from peak to trough in the strategy's cumulative returns.
+  - Such a steep drawdown suggests that the strategy is highly risky and could lead to substantial losses during adverse periods.
+
+- **Overall Implications**
+  - The current configuration of the strategy is **unprofitable** and **highly risky**.
+  - The results suggest a need to revisit key parameters (e.g., thresholds, rolling window size) and incorporate risk management measures such as stop-loss rules or dynamic position sizing.
+  - Additional steps like including transaction costs, performing out-of-sample testing, or further optimization might help improve the strategy's performance.
+
+
 
 
 
