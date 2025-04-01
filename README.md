@@ -29,6 +29,9 @@ Pairs trading is a popular market-neutral trading strategy based on the assumpti
   - Check for the "Adj Close" column; if unavailable, use "Close".
   - Align and clean the data.
 
+![carbon (2)](https://github.com/user-attachments/assets/fd96a8dd-9599-46ca-97cd-561cf6b3e07a)
+
+
 ### Cointegration Analysis
 
 - **Objective:** Verify that IOC.NS and BPCL.NS share a long-run equilibrium.
