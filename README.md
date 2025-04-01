@@ -29,7 +29,8 @@ Pairs trading is a popular market-neutral trading strategy based on the assumpti
   - Check for the "Adj Close" column; if unavailable, use "Close".
   - Align and clean the data.
 
-![carbon (2)](https://github.com/user-attachments/assets/fd96a8dd-9599-46ca-97cd-561cf6b3e07a)
+![carbon (3)](https://github.com/user-attachments/assets/bdc5450a-79ed-4e1f-a5c1-5249137cdb79)
+
 
 
 ### Cointegration Analysis
