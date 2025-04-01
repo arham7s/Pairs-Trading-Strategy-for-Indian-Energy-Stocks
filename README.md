@@ -66,9 +66,20 @@ Pairs trading is a popular market-neutral trading strategy based on the assumpti
 
 - **Sharpe Ratio:** Annualized ratio to measure risk-adjusted returns.
 - **Maximum Drawdown:** Largest percentage drop from peak cumulative return to assess risk.
+  ![carbon (7)](https://github.com/user-attachments/assets/7a62705c-e733-41fd-94b8-92e383163e62)
+
 
 
 
 ## Results and Visualizations
 
 Below are sample outputs obtained after running the script:
+
+- ![download (1)](https://github.com/user-attachments/assets/2ebe39c0-cc30-45d4-9bc6-d553cbff5fe7)
+- ![download (2)](https://github.com/user-attachments/assets/3f461a8f-90d8-4eb7-8a64-38eca6c9b330)
+- ![download (3)](https://github.com/user-attachments/assets/401a341d-2ae3-4a17-b59e-2855c86a1b6f)
+- ![download (4)](https://github.com/user-attachments/assets/e7388cdd-2a19-41b5-a628-ac182b1951e3)
+
+
+
+
