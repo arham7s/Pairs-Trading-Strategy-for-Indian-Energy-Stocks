@@ -29,10 +29,6 @@ Pairs trading is a popular market-neutral trading strategy based on the assumpti
   - Check for the "Adj Close" column; if unavailable, use "Close".
   - Align and clean the data.
 
-![carbon (3)](https://github.com/user-attachments/assets/bdc5450a-79ed-4e1f-a5c1-5249137cdb79)
-
-
-
 ### Cointegration Analysis
 
 - **Objective:** Verify that IOC.NS and BPCL.NS share a long-run equilibrium.
@@ -43,6 +39,8 @@ Pairs trading is a popular market-neutral trading strategy based on the assumpti
     \[
     \text{spread} = \text{IOC.NS} - \beta \times \text{BPCL.NS}
     \]
+    ![carbon (4)](https://github.com/user-attachments/assets/01db9306-e5ca-4129-a04f-3d4439a27f43)
+
 
 ### Signal Generation
 
@@ -51,6 +49,8 @@ Pairs trading is a popular market-neutral trading strategy based on the assumpti
   - **Long Signal (+1):** When the spread is below the lower threshold (mean - std).
   - **Short Signal (-1):** When the spread is above the upper threshold (mean + std).
   - **Hold:** Carry the previous signal until a reversal occurs.
+    ![carbon (5)](https://github.com/user-attachments/assets/f3e3e2b6-a934-4037-98b5-652c5883e9af)
+
 
 ### Backtesting the Strategy
 
@@ -60,11 +60,14 @@ Pairs trading is a popular market-neutral trading strategy based on the assumpti
   R_t = \text{signal}_{t-1} \times \left( \Delta \text{IOC.NS}_t - \beta \times \Delta \text{BPCL.NS}_t \right)
   \]
 - **Cumulative Returns:** Evaluate the growth of a $1 investment over the period.
+  ![carbon (6)](https://github.com/user-attachments/assets/e5a4aa21-9fe0-40eb-903c-5d6a309ef7a7)
 
 ### Performance Evaluation
 
 - **Sharpe Ratio:** Annualized ratio to measure risk-adjusted returns.
 - **Maximum Drawdown:** Largest percentage drop from peak cumulative return to assess risk.
+
+
 
 ## Results and Visualizations
 
